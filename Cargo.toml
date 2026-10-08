@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/possibility_core",
+    "crates/possibility_sim",
+    "crates/possibility_cognition",
+    "crates/possibility_control",
+    "crates/possibility_app",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Aimcurio <Aimcurio@users.noreply.github.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Aimcurio/possibility-engine"
